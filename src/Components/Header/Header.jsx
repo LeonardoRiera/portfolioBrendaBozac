@@ -17,7 +17,7 @@ const Header = () => {
 
           <div className="col-md-12 col-lg-6 textoContainer ">
             <h1 className='principalTitulo'>Hola Soy Brenda!</h1>
-            <p className='principalParrafo'>Profesional en Gestión de Eventos y Atención al Público  Apasionada por el Desarrollo de Software y Marketing Digital  Emprendedora con Experiencia Internacional</p>
+            <p className='principalParrafo'>Profesional en Gestión de Eventos y Atención al Público <br /> Apasionada por el Desarrollo de Software <br /> y Marketing Digital <br /> Emprendedora con Experiencia Internacional</p>
             <div className='flags'>
               <img src={arg} alt="bandera argentina"  className='banderas'/>
               <img src={italy} alt="bandera italiana"  className='banderas'/>

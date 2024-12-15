@@ -37,7 +37,8 @@
 
 .principalParrafo {
     font-size: 1.4vmax;
-    padding-bottom: 0.5vmax;
+    padding: 0.5vmax 0 0.5vmax 0.5vmax;
+
    
    
 }
