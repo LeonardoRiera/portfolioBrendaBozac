@@ -1,0 +1,240 @@
+
+.botonContainer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -2vmax;
+    padding-bottom: 2vmax;
+    
+   
+}
+.botonHeader {
+    text-decoration: none;
+    padding: 0.8vmax 2vmax;
+   /*  background: linear-gradient(to left, rgba(127, 0, 85, 0.8), rgb(255, 87, 210), rgb(255, 149, 225)); */
+   background-color: rgb(95, 0, 135);
+    border-radius: 30px;
+    margin: 0;
+    color: rgb(255, 192, 226);
+    font-size: 1.5vmax;
+   width: 20%;
+   text-align: center;
+
+}
+
+.botonHeader:hover {
+    background-color: rgb(48, 0, 69);
+}
+
+
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:2220px) {
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:1400px) {
+
+   
+  
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:1200px) {
+
+ 
+    .botonContainer {
+
+        margin-top: 0;
+       
+        
+       
+    }
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:992px) {
+
+    .botonHeader {
+        padding: 1.3vmax 2vmax;
+       
+        font-size: 2.3vmax;
+        width: 40%;
+       
+    }
+
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:885px)  {
+
+   
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:835px)  {
+
+   
+    
+    
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla movile varios   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:800px) {
+
+
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:768px) {
+
+    .botonContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        
+       
+    }
+
+    .botonHeader {
+        padding: 1.8vmax 5vmax; 
+        font-size: 2.2vmax;
+        width: 30%;
+      
+    
+    }
+   
+}
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:581px) {
+    
+    .botonHeader {
+       
+        padding: 1.8vmax 5vmax;
+        margin: 0;
+        font-size: 2.2vmax;
+        width: 50%;
+       
+    
+    }
+}
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:576px) {
+
+    
+   
+
+
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:500px) {
+
+    .botonHeader {
+       
+        padding: 1.5vmax 5vmax;
+       
+       
+        margin: 0;
+      
+        font-size: 1.8vmax;
+       width: 60%;
+       
+    
+    }
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla movile varias |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:481px) {
+
+   
+
+   
+   
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla moviles varios |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:469px) {
+
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:400px) {
+ 
+    .botonHeader {
+       
+        padding: 1.8vmax 5vmax;
+       
+       
+        margin: 0;
+      
+        font-size: 1.8vmax;
+       width: 60%;
+       
+    
+    }
+   
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:325px) {
+    
+    
+ 
+    
+} 

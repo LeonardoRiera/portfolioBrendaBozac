@@ -1,0 +1,254 @@
+
+.nvCont {
+    padding: 0 1vmax;
+    background-color: rgb(255, 192, 226);
+}
+
+.nombreNavbar {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 1.5vmax;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 30%;
+    color: #212529;
+
+   
+}
+
+.nombreLinks {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 1.5vmax;
+    color: #212529;
+    padding: 1vmax 0;
+    
+}
+
+.border {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.hambur {
+    border: none;
+    color:#212529;
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+}
+
+.cuadrado {
+    width: 4vmax;
+    padding: 1vmax;
+}
+
+
+
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:2220px) {
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:1400px) {
+
+   
+  
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:1200px) {
+
+ 
+    .nombreNavbar {
+       
+        font-size: 1.7vmax;
+    }
+    
+    .nombreLinks {
+       
+        font-size: 1.7vmax;
+      
+        
+    }
+ 
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:992px) {
+
+    .nombreNavbar {
+        font-size: 2.2vmax;
+    }
+    
+    .nombreLinks {
+        font-size: 2.2vmax;
+     
+    }
+
+    .cuadrado {
+       
+        padding: 1vmax;
+    }
+
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:885px)  {
+
+  
+    
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:835px)  {
+
+   
+    
+    
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla movile varios   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:800px) {
+
+
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:768px) {
+
+
+   
+}
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:581px) {
+    
+    .nombreNavbar {
+        font-size: 2.5vmax;
+    }
+    
+    .nombreLinks {
+        font-size: 2.5vmax;
+     
+    }
+
+    .hambur {
+        font-size: 2.5vmax;
+    }
+}
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:576px) {
+
+    
+    .nombreNavbar {
+        font-size: 2.8vmax;
+    }
+    
+    .nombreLinks {
+        font-size: 2.8vmax;
+     
+    }
+
+
+
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:543px) {
+
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla movile varias |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:481px) {
+
+    .nvCont {
+        padding: 0 ;
+       
+    }
+
+    .hambur {
+        font-size: 2.9vmax;
+    }
+   
+   
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla moviles varios |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:469px) {
+
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:393px) {
+ 
+    .hambur {
+        font-size:3vmax;
+        color: #212529;
+        
+    }
+   
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:325px) {
+    
+    
+ 
+    
+} 

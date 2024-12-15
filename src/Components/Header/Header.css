@@ -1,0 +1,384 @@
+.headerContainer {
+    overflow: hidden;
+    padding: 1vmax 3vmax;
+    background-color: rgb(255, 192, 226);
+   
+
+    
+}
+
+.principal {
+    display: flex;
+}
+
+
+.fotoContainer{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.textoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    padding-left: 10vmax;
+    padding-top: 6vmax;
+}
+
+.principalTitulo {
+    font-size: 4vmax;
+    font-family: 'Excon', sans-serif;
+    padding-bottom: 1.5vmax;
+}
+
+.principalParrafo {
+    font-size: 1.4vmax;
+    padding-bottom: 0.5vmax;
+   
+   
+}
+
+
+.foto {
+    width: 70%;
+}
+
+.flags {
+    display: flex;
+    justify-content: center;
+    gap: 1vmax;
+    padding-bottom: 2vmax;
+}
+
+.banderas {
+    width: 4%;
+}
+
+.btnContenedore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.botonDescargar {
+    text-decoration: none;
+    padding: 0.8vmax 3vmax;
+    /* background: linear-gradient(to left,  rgb(123, 6, 102), rgb(192, 0, 150) , rgb(123, 6, 102) , rgb(192, 0, 150) , rgb(123, 6, 102)); */
+    background-color: rgb(255, 69, 227);
+    border-radius: 5px;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 1.2vmax;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    /* Sombra inicial */
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.247);
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.botonDescargar:hover {
+    /* Efecto de agrandamiento */
+    transform: scale(1.1);
+    /* Sombra más pequeña para un efecto realista */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.441);
+    background-color: rgb(158, 0, 135);
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:2220px) {
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:1400px) {
+
+   
+  
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:1200px) {
+
+    .headerContainer {
+       
+        padding: 4vmax 3vmax;
+        
+    
+        
+    }
+  
+    
+}
+
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:1100px) {
+
+    .headerContainer {
+        padding: 6vmax 3vmax;
+        
+    
+        
+    }
+  
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:992px) {
+
+
+
+
+    .fotoContainer {
+        order: 1;
+    }
+
+    .textoContainer {
+        order: 2;
+    }
+
+    .foto {
+        width: 50%;
+    }
+
+    .textoContainer {
+        padding-left: 0;
+        padding-top: 3vmax;
+    }
+
+    .principalTitulo {
+        font-size: 9.8vmax;
+        padding-bottom: 1.5vmax;
+    }
+    
+    .principalParrafo {
+        font-size:2.3vmax;
+        padding-bottom: 0.5vmax;
+       
+       
+    }
+
+    .botonDescargar {
+        
+        padding: 1.2vmax 6vmax;
+        font-size:1.8vmax;
+        margin-bottom: 5vmax;
+        margin-top: 2vmax;
+
+       
+    }
+
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:885px)  {
+
+   
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:835px)  {
+
+    .foto {
+        width: 58%;
+    }
+
+    .principalTitulo {
+        font-size:7.8vmax;
+        padding-bottom: 1.5vmax;
+    }
+
+    
+    
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla movile varios   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:800px) {
+
+    .foto {
+        width: 62%;
+    }
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:768px) {
+
+   
+
+    .btnCv {
+       
+        padding: 1.8vmax 5vmax;
+        
+        font-size: 2.2vmax;
+       width: 30%;
+       
+    
+    }
+
+    .fotoContainer {
+        order: 1;
+    }
+
+    .textoContainer {
+        order: 2;
+    }
+
+   
+}
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:581px) {
+    
+}
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:576px) {
+
+    
+   
+
+
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:500px) {
+
+  
+    .foto {
+        width: 75%;
+    }
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla movile varias |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:481px) {
+
+    .foto {
+        width: 77%;
+    }
+
+    .principalTitulo {
+        font-size: 5.8vmax;
+        padding-bottom: 1.5vmax;
+    }
+    
+    .principalParrafo {
+        font-size: 1.8vmax;
+        padding-bottom: 0.5vmax;
+       
+       
+    }
+    .banderas {
+        width: 6%;
+    }
+    
+
+   
+   
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla moviles varios |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:469px) {
+
+    .headerContainer {
+        padding: 2vmax 3vmax;
+        
+    
+        
+    }
+  
+
+
+    .principalTitulo {
+        padding-bottom: 0.9vmax;
+    }
+    .principalParrafo {
+        font-size: 1.8vmax;
+        padding-bottom: 0.5vmax;
+       
+       
+    }
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:400px) {
+
+    .foto {
+        width: 85%;
+    }
+ 
+    .btnCv {
+       
+        padding: 1.8vmax 5vmax;
+       
+       
+        margin: 0;
+      
+        font-size: 1.8vmax;
+       width: 60%;
+       
+    
+    }
+   
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:325px) {
+    
+    
+ 
+    
+} 
