@@ -272,7 +272,12 @@
 @media screen and (max-width:576px) {
 
     
-   
+    .principalParrafo {
+        font-size: 2vmax;
+        padding-bottom: 0.5vmax;
+       
+       
+    }
 
 
 }
@@ -280,12 +285,7 @@
 /* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:500px) {
-    .principalParrafo {
-        font-size: 1.6vmax;
-        padding-bottom: 0.5vmax;
-       
-       
-    }
+   
   
     .foto {
         width: 75%;
@@ -333,7 +333,7 @@
         padding-bottom: 0.9vmax;
     }
     .principalParrafo {
-        font-size: 1.5vmax;
+        font-size: 2vmax;
         padding-bottom: 0.5vmax;
        
        
