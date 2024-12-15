@@ -245,17 +245,6 @@
 @media screen and (max-width:768px) {
 
    
-
-    .btnCv {
-       
-        padding: 1.8vmax 5vmax;
-        
-        font-size: 2.2vmax;
-       width: 30%;
-       
-    
-    }
-
     .fotoContainer {
         order: 1;
     }
@@ -291,7 +280,12 @@
 /* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:500px) {
-
+    .principalParrafo {
+        font-size: 1.6vmax;
+        padding-bottom: 0.5vmax;
+       
+       
+    }
   
     .foto {
         width: 75%;
@@ -312,12 +306,7 @@
         padding-bottom: 1.5vmax;
     }
     
-    .principalParrafo {
-        font-size: 1.8vmax;
-        padding-bottom: 0.5vmax;
-       
-       
-    }
+   
     .banderas {
         width: 6%;
     }
@@ -344,7 +333,7 @@
         padding-bottom: 0.9vmax;
     }
     .principalParrafo {
-        font-size: 1.8vmax;
+        font-size: 1.5vmax;
         padding-bottom: 0.5vmax;
        
        
@@ -360,19 +349,7 @@
         width: 85%;
     }
  
-    .btnCv {
-       
-        padding: 1.8vmax 5vmax;
-       
-       
-        margin: 0;
-      
-        font-size: 1.8vmax;
-       width: 60%;
-       
     
-    }
-   
 }
 
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
