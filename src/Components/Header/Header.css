@@ -285,6 +285,11 @@
 /* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:500px) {
+
+    .textoContainer {
+        
+        padding-top: 1vmax;
+    }
    
   
     .foto {
@@ -310,7 +315,7 @@
 
     .principalTitulo {
         font-size: 5.8vmax;
-        padding-bottom: 1.5vmax;
+        padding-bottom: 1.2vmax;
     }
     
    
