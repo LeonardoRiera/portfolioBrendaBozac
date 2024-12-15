@@ -273,7 +273,7 @@
 
     
     .principalParrafo {
-        font-size: 2vmax;
+        font-size: 1.8vmax;
         padding-bottom: 0.5vmax;
        
        
@@ -296,6 +296,13 @@
 /* ++++++++++++++++++++++++ media query  | pantalla movile varias |   ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:481px) {
+
+    .headerContainer {
+        padding: 2vmax 1.5vmax;
+        
+    
+        
+    }
 
     .foto {
         width: 77%;
@@ -320,12 +327,7 @@
 
 @media screen and (max-width:469px) {
 
-    .headerContainer {
-        padding: 2vmax 3vmax;
-        
     
-        
-    }
   
 
 
