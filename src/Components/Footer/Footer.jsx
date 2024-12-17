@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div id='footer'>
         <div className="contactosFooter">
-            <p className='tituloFooter'>Contactos</p>
+            <p className='tituloFooter'>Contacto</p>
         </div>
 
         <div className='listaContactos'>
