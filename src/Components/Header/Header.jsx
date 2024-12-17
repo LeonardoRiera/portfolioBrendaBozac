@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react';
 import "./Header.css"
 import Boton from '../Boton/Boton';
 import Foto from "../../Image/brendaProyecto.png"
@@ -10,6 +10,12 @@ import colombia from "../../Image/colombia.png"
 
 
 const Header = () => {
+
+  // Este useEffect asegura que la página se desplace hacia arriba al cargar el componente, me encanto!!
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); // El array vacío indica que se ejecutará solo al montar el componente
+
   return (
     <div className='headerContainer'>
         
@@ -35,7 +41,7 @@ const Header = () => {
 
         </div>
         
-        <Boton to="/portfolio">Ver Portfolio</Boton>
+        <Boton to="/portfolio">Ver Perfil</Boton>
          
       
         

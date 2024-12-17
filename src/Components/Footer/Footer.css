@@ -1,64 +1,89 @@
-
-
-.hidden {
-    overflow: hidden;
-    margin-top: 1vmax;
-}
-
-.principal2 {
-    overflow: hidden;
-}
-
-.segundoleo {
-    width: 70%;
-}
-
-.containerSedungo {
+.nameContainer {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-   
+    gap: 1vmax;
+    margin-top: 3vmax;
 }
 
-.textoContainer2 {
-    display: flex;
-    flex-direction: column;
+.cuadradoFooter {
+    width: 3%;
 }
 
-.refer {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-   /*  padding: 3vmax; */
-    gap: 2vmax;
-}
-
-.logo {
-    width: 5%;
-}
-
-.textoRefer {
+.nombreFooter {
     font-size: 2vmax;
-    padding-top: 0.8vmax;
+    margin-top: 0.9vmax;
 }
 
-.description {
+.contactosFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloFooter {
+    font-size: 7vmax;
+    font-family: 'Excon', sans-serif;
+    color: #212529;
+}
+
+.listaContactos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8vmax;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1vmax;
+}
+
+.logoFoot {
+    font-size: 3vmax;
+}
+
+
+
+.links {
+    font-size: 1.8vmax;
+    text-decoration: none;
+    color: #212529;
+    
+}
+
+.links:hover {
+    color: rgb(95, 0, 135);
+}
+
+.renglonFinal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fea2d3;
+    overflow: hidden;
+    height: 2.2vmax;
+}
+
+.derechos {
+    font-size: 0.8vmax;
     padding-top: 1vmax;
-    padding-right: 5vmax;
-}
-
-.descriptionP {
-    font-size: 1.2vmax;
 }
 
 
 
 
-.decideBoton {
-    margin-top: 2.4vmax;
-}
+
+
+
+
+
+
+
 
 
 
@@ -80,13 +105,7 @@
 
 @media screen and (max-width:1400px) {
 
-   .hidden {
-    margin-top: 4vmax;
-   }
-  
-   .descriptionP {
-    font-size: 1.3vmax;
-}
+   
     
 }
 
@@ -98,7 +117,11 @@
 @media screen and (max-width:1200px) {
 
  
-   
+    .derechos {
+        font-size: 0.8vmax;
+        padding-top: 1.5vmax;
+    }
+    
  
     
 }
@@ -110,54 +133,17 @@
 
 @media screen and (max-width:992px) {
 
-    .textoContainer2 {
-        align-items: center;
-    }
-
-    .refer {
-       flex-direction: column;
-       margin-top: 4vmax;
-       
-       
-    }
-
-
-    .logo {
-        width: 10%;
-    }
-    
-    .textoRefer {
-        font-size: 3vmax;
-        padding-top: 0.4vmax;
-    }
-
-
-    .description {
-        padding-top: 2vmax;
-        padding-right: 5vmax;
-        padding-left: 5vmax;
-    }
-    
-    .descriptionP {
-        order: 1;
-        font-size:2.1vmax;
-        text-align: center;
-    }
-
-    .explain {
-        order: 2;
-    }
     
 
-    .segundoleo {
-        width: 60%;
-    }
 
-    .decideBoton {
-        margin-top: 4vmax;
+    .contactosFooter {
+        margin-top: 3vmax;
     }
     
-
+    .listaContactos {
+        padding: 0 1.5vmax;
+        gap: 4vmax
+    }
 }
 
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
@@ -166,9 +152,7 @@
 
 @media screen and (max-width:885px)  {
 
-    .logo {
-        width: 14%;
-    }
+    
     
     
         
@@ -192,8 +176,33 @@
 
 @media screen and (max-width:800px) {
 
+    .listaContactos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2vmax;
+    }
 
+
+    .logoFoot {
+        font-size: 4vmax;
+    }
     
+    
+    
+    .links {
+        font-size: 2vmax;
+        text-decoration: none;
+        color: #212529;
+        
+    }
+
+    .derechos {
+        font-size: 1.1vmax;
+        padding-top: 1vmax;
+    }
+   
 }
 
 
@@ -203,7 +212,36 @@
 
 @media screen and (max-width:768px) {
 
+    .logoFoot {
+        font-size: 5vmax;
+    }
+    
+    
+    
+    .links {
+        font-size: 3vmax;
+        text-decoration: none;
+        color: #212529;
+        
+    }
 
+    .derechos {
+        font-size: 1.5vmax;
+        padding-top: 1.5vmax;
+    }
+
+    .nameContainer {
+        padding-top: 1vmax;
+    }
+    .cuadradoFooter {
+        width: 5%;
+    }
+    
+    .nombreFooter {
+        font-size: 3vmax;
+        margin-top: 1vmax;
+    }
+   
    
 }
 
@@ -212,10 +250,12 @@
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:581px) {
-    
-    .segundoleo {
-        width: 70%;
+
+    .derechos {
+        font-size: 1.3vmax;
+        padding-top: 1.8vmax;
     }
+    
 }
 
 
@@ -236,9 +276,17 @@
 
 @media screen and (max-width:500px) {
 
-    .textoRefer {
-        font-size: 2.5vmax;
-        padding-top: 0.4vmax;
+    .logoFoot {
+        font-size: 4vmax;
+    }
+    
+    
+    
+    .links {
+        font-size: 2.4vmax;
+        text-decoration: none;
+        color: #212529;
+        
     }
 }
 
